@@ -61,7 +61,7 @@ export default class ViewPathPage extends Component<
       quality: 0.5,
     };
     ImagePicker.launchCamera(options, (response: any) => {
-      console.log("Response = ", response);
+      //console.log("Response = ", response);
 
       if (response.didCancel) {
         console.log("User cancelled image picker");
